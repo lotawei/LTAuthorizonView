@@ -11,6 +11,7 @@ import UIKit
 import  QuartzCore
 let ButtonPadding:CGFloat = 100
 
+//主要是在动画完成时可以进行一些操作
 class AnimationDelegate: NSObject, CAAnimationDelegate {
     
     fileprivate let completion: () -> Void
@@ -134,6 +135,7 @@ class CircularRevealAnimator {
         
         let circularAnimation = CircularRevealAnimator(layer: fillLayer, center: center, startRadius: 0, endRadius: radius)
         circularAnimation.duration = 0.2
+        circularAnimation.timingFunction =  CAMediaTimingFunction.init(name: kCAMediaTimingFunctionEaseIn)
         circularAnimation.completion = {
             fillLayer.opacity = 0
             let opacityAnimation = CABasicAnimation(keyPath: "opacity")

@@ -274,8 +274,8 @@ class  ManualView:UIView,PanViewDelegate{
                 self.lbldisname.text = ""
             })
         }
-        
-        self.fadeview.animateCircular(withDuration: 4.0, center: fadeview.center, animations: {
+        let centrp = CGPoint.init(x: self.fadeview.frame.size.width/2.0, y: self.fadeview.frame.size.height/2.0)
+        self.fadeview.animateCircular(withDuration: 1.0, center: centrp, animations: {
             self.fadeislight = ispass
         }, completion: {(_) in  self.fadeislight = false})
         
