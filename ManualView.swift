@@ -148,6 +148,18 @@ class  ManualView:UIView,PanViewDelegate{
         let  aview = UIImageView(frame: CGRect.init(x: 0, y: 0, width: 50, height: 50))
         return aview
     }()
+    
+    var  fadeislight:Bool = false {
+        didSet{
+             changefadestyle()
+        }
+    }
+    func  changefadestyle(){
+        self.fadeview.backgroundColor = fadeislight ? UIColor.orange:UIColor.gray
+        
+        
+    }
+    
     lazy  var   fadeview:UIView = {
         let  aview = UIView(frame: CGRect.init(x: 0, y: 0, width: 50, height: 50))
         aview.alpha = 0.5
@@ -225,16 +237,19 @@ class  ManualView:UIView,PanViewDelegate{
             print("验证成功")
             //fadeview的动画
            self.lbldisname.text = "恭喜验证成功!" + usertime
+          
+            
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 3, initialSpringVelocity: 1, options: .curveLinear, animations: {() -> Void in
                 self.movesizeview.frame.origin.x = self.originalx
                 self.movesizeview.transform  = CGAffineTransform.init(scaleX: 1.5, y: 1.5)
                 self.movesizeview.transform  = CGAffineTransform.identity
-                
                 self.fadeview.transform  = CGAffineTransform.init(scaleX: 2, y: 1)
                 self.fadeview.transform  = CGAffineTransform.init(scaleX: 0.5, y: 1)
                 self.fadeview.transform  = CGAffineTransform.init(scaleX: 1, y: 1)
+                
+                
             })
-            
+        
             UIView.animate(withDuration: 3.0, animations: {
                 self.lbldisname.alpha = 1.0
             }, completion: { (finish) in
@@ -259,6 +274,11 @@ class  ManualView:UIView,PanViewDelegate{
                 self.lbldisname.text = ""
             })
         }
+        
+        self.fadeview.animateCircular(withDuration: 4.0, center: fadeview.center, animations: {
+            self.fadeislight = ispass
+        }, completion: {(_) in  self.fadeislight = false})
+        
     }
 }
 
