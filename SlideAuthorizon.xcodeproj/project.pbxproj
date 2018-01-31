@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED4B41CA202001B70004F298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B41C9202001B70004F298 /* AppDelegate.swift */; };
+		ED4B41CC202001B70004F298 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B41CB202001B70004F298 /* ViewController.swift */; };
+		ED4B41CF202001B70004F298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4B41CD202001B70004F298 /* Main.storyboard */; };
+		ED4B41D1202001B80004F298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4B41D0202001B80004F298 /* Assets.xcassets */; };
+		ED4B41D4202001B80004F298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4B41D2202001B80004F298 /* LaunchScreen.storyboard */; };
+		ED4B41F820200D5A0004F298 /* ManualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B41F720200D5A0004F298 /* ManualView.swift */; };
+		ED4B41FA20201CB40004F298 /* ManualView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4B41F920201CB40004F298 /* ManualView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED4B41DB202001B80004F298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED4B41BE202001B70004F298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4B41C5202001B70004F298;
+			remoteInfo = SlideAuthorizon;
+		};
+		ED4B41E6202001B80004F298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED4B41BE202001B70004F298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4B41C5202001B70004F298;
+			remoteInfo = SlideAuthorizon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED4B41C6202001B70004F298 /* SlideAuthorizon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideAuthorizon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4B41C9202001B70004F298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED4B41CB202001B70004F298 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED4B41CE202001B70004F298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED4B41D0202001B80004F298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED4B41D3202001B80004F298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED4B41D5202001B80004F298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4B41DA202001B80004F298 /* SlideAuthorizonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideAuthorizonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4B41E5202001B80004F298 /* SlideAuthorizonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideAuthorizonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4B41F720200D5A0004F298 /* ManualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualView.swift; sourceTree = "<group>"; };
+		ED4B41F920201CB40004F298 /* ManualView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManualView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4B41C3202001B70004F298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B41D7202001B80004F298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B41E2202001B80004F298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED4B41BD202001B70004F298 = {
+			isa = PBXGroup;
+			children = (
+				ED4B41F920201CB40004F298 /* ManualView.xib */,
+				ED4B41F720200D5A0004F298 /* ManualView.swift */,
+				ED4B41C8202001B70004F298 /* SlideAuthorizon */,
+				ED4B41C7202001B70004F298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4B41C7202001B70004F298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4B41C6202001B70004F298 /* SlideAuthorizon.app */,
+				ED4B41DA202001B80004F298 /* SlideAuthorizonTests.xctest */,
+				ED4B41E5202001B80004F298 /* SlideAuthorizonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4B41C8202001B70004F298 /* SlideAuthorizon */ = {
+			isa = PBXGroup;
+			children = (
+				ED4B41C9202001B70004F298 /* AppDelegate.swift */,
+				ED4B41CB202001B70004F298 /* ViewController.swift */,
+				ED4B41CD202001B70004F298 /* Main.storyboard */,
+				ED4B41D0202001B80004F298 /* Assets.xcassets */,
+				ED4B41D2202001B80004F298 /* LaunchScreen.storyboard */,
+				ED4B41D5202001B80004F298 /* Info.plist */,
+			);
+			path = SlideAuthorizon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4B41C5202001B70004F298 /* SlideAuthorizon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4B41EE202001B80004F298 /* Build configuration list for PBXNativeTarget "SlideAuthorizon" */;
+			buildPhases = (
+				ED4B41C2202001B70004F298 /* Sources */,
+				ED4B41C3202001B70004F298 /* Frameworks */,
+				ED4B41C4202001B70004F298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideAuthorizon;
+			productName = SlideAuthorizon;
+			productReference = ED4B41C6202001B70004F298 /* SlideAuthorizon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED4B41D9202001B80004F298 /* SlideAuthorizonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4B41F1202001B80004F298 /* Build configuration list for PBXNativeTarget "SlideAuthorizonTests" */;
+			buildPhases = (
+				ED4B41D6202001B80004F298 /* Sources */,
+				ED4B41D7202001B80004F298 /* Frameworks */,
+				ED4B41D8202001B80004F298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4B41DC202001B80004F298 /* PBXTargetDependency */,
+			);
+			name = SlideAuthorizonTests;
+			productName = SlideAuthorizonTests;
+			productReference = ED4B41DA202001B80004F298 /* SlideAuthorizonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED4B41E4202001B80004F298 /* SlideAuthorizonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4B41F4202001B80004F298 /* Build configuration list for PBXNativeTarget "SlideAuthorizonUITests" */;
+			buildPhases = (
+				ED4B41E1202001B80004F298 /* Sources */,
+				ED4B41E2202001B80004F298 /* Frameworks */,
+				ED4B41E3202001B80004F298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4B41E7202001B80004F298 /* PBXTargetDependency */,
+			);
+			name = SlideAuthorizonUITests;
+			productName = SlideAuthorizonUITests;
+			productReference = ED4B41E5202001B80004F298 /* SlideAuthorizonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4B41BE202001B70004F298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lotawei;
+				TargetAttributes = {
+					ED4B41C5202001B70004F298 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					ED4B41D9202001B80004F298 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED4B41C5202001B70004F298;
+					};
+					ED4B41E4202001B80004F298 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED4B41C5202001B70004F298;
+					};
+				};
+			};
+			buildConfigurationList = ED4B41C1202001B70004F298 /* Build configuration list for PBXProject "SlideAuthorizon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED4B41BD202001B70004F298;
+			productRefGroup = ED4B41C7202001B70004F298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4B41C5202001B70004F298 /* SlideAuthorizon */,
+				ED4B41D9202001B80004F298 /* SlideAuthorizonTests */,
+				ED4B41E4202001B80004F298 /* SlideAuthorizonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4B41C4202001B70004F298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4B41FA20201CB40004F298 /* ManualView.xib in Resources */,
+				ED4B41D4202001B80004F298 /* LaunchScreen.storyboard in Resources */,
+				ED4B41D1202001B80004F298 /* Assets.xcassets in Resources */,
+				ED4B41CF202001B70004F298 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B41D8202001B80004F298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B41E3202001B80004F298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4B41C2202001B70004F298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4B41CC202001B70004F298 /* ViewController.swift in Sources */,
+				ED4B41CA202001B70004F298 /* AppDelegate.swift in Sources */,
+				ED4B41F820200D5A0004F298 /* ManualView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B41D6202001B80004F298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B41E1202001B80004F298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED4B41DC202001B80004F298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4B41C5202001B70004F298 /* SlideAuthorizon */;
+			targetProxy = ED4B41DB202001B80004F298 /* PBXContainerItemProxy */;
+		};
+		ED4B41E7202001B80004F298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4B41C5202001B70004F298 /* SlideAuthorizon */;
+			targetProxy = ED4B41E6202001B80004F298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED4B41CD202001B70004F298 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4B41CE202001B70004F298 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED4B41D2202001B80004F298 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4B41D3202001B80004F298 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED4B41EC202001B80004F298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED4B41ED202001B80004F298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4B41EF202001B80004F298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SlideAuthorizon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lotawei.com.SlideAuthorizon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED4B41F0202001B80004F298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SlideAuthorizon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lotawei.com.SlideAuthorizon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED4B41F2202001B80004F298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlideAuthorizonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lotawei.com.SlideAuthorizonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideAuthorizon.app/SlideAuthorizon";
+			};
+			name = Debug;
+		};
+		ED4B41F3202001B80004F298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlideAuthorizonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lotawei.com.SlideAuthorizonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideAuthorizon.app/SlideAuthorizon";
+			};
+			name = Release;
+		};
+		ED4B41F5202001B80004F298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlideAuthorizonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lotawei.com.SlideAuthorizonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlideAuthorizon;
+			};
+			name = Debug;
+		};
+		ED4B41F6202001B80004F298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlideAuthorizonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lotawei.com.SlideAuthorizonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlideAuthorizon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4B41C1202001B70004F298 /* Build configuration list for PBXProject "SlideAuthorizon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4B41EC202001B80004F298 /* Debug */,
+				ED4B41ED202001B80004F298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4B41EE202001B80004F298 /* Build configuration list for PBXNativeTarget "SlideAuthorizon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4B41EF202001B80004F298 /* Debug */,
+				ED4B41F0202001B80004F298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4B41F1202001B80004F298 /* Build configuration list for PBXNativeTarget "SlideAuthorizonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4B41F2202001B80004F298 /* Debug */,
+				ED4B41F3202001B80004F298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4B41F4202001B80004F298 /* Build configuration list for PBXNativeTarget "SlideAuthorizonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4B41F5202001B80004F298 /* Debug */,
+				ED4B41F6202001B80004F298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4B41BE202001B70004F298 /* Project object */;
+}
