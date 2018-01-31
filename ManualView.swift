@@ -43,15 +43,15 @@ extension  String{
         var  res = "超越10%玩家"
         
         if  usertime > 1.5{
-            res = String.init(format: "用时%.1f秒超越20%玩家", usertime)
+            res = String.init(format: "用时%.1f秒超越百分之20的玩家", usertime)
             
         }
         else if usertime < 1.0{
-            res =  String.init(format: "用时%.1f秒超越97%玩家", usertime)
+            res =  String.init(format: "用时%.1f秒超越百分之97的玩家", usertime)
             
         }
         else {
-           res =  String.init(format: "用时%.1f秒超越90%玩家", usertime)
+           res =  String.init(format: "用时%.1f秒超越百分之90的玩家", usertime)
             
         }
         return res
@@ -160,7 +160,7 @@ class  ManualView:UIView,PanViewDelegate{
         alable.font = UIFont.systemFont(ofSize: 14)
         alable.layer.borderColor = UIColor.black.cgColor
         alable.layer.borderWidth = 3.0
-        alable.textAlignment = .right
+        alable.textAlignment = .center
         alable.textColor = UIColor.orange
         return alable
     }()
